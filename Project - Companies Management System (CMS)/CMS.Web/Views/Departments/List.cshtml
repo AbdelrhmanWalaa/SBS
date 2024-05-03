@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Departments";
+}
+
+@model List<CMS.Web.Models.Entities.Department>
+
+<br />
+<h1>@ViewData["Title"]</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Department ID</th>
+            <th>Name</th>
+            <th>Company ID</th>
+            <th> </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var department in Model)
+        {
+            <tr>
+                <td>@department.DepID</td>
+                <td>@department.Name</td>
+                <td>@department.CompID</td>
+                <td>
+                    <a class="btn btn-primary" asp-controller="Departments" asp-action="Edit" asp-route-id="@department.DepID">Edit</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

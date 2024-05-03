@@ -1,0 +1,36 @@
+﻿@{
+    ViewData["Title"] = "Products";
+}
+
+@model List<CMS.Web.Models.Entities.Product>
+
+<br />
+<h1>@ViewData["Title"]</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Product ID</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>Company ID</th>
+            <th> </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model)
+        {
+            <tr>
+                <td>@product.ProdID</td>
+                <td>@product.Name</td>
+                <td>@product.Description</td>
+                <td>@product.Price</td>
+                <td>@product.CompID</td>
+                <td>
+                    <a class="btn btn-primary" asp-controller="Products" asp-action="Edit" asp-route-id="@product.ProdID">Edit</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Employees";
+}
+
+@model List<CMS.Web.Models.Entities.Employee>
+
+<br />
+<h1>@ViewData["Title"]</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Employee ID</th>
+            <th>Name</th>
+            <th>Position</th>
+            <th>Account</th>
+            <th>Phone Number</th>
+            <th>Address</th>
+            <th>Company ID</th>
+            <th> </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var employee in Model)
+        {
+            <tr>
+                <td>@employee.EmpID</td>
+                <td>@employee.Name</td>
+                <td>@employee.Position</td>
+                <td>@employee.Account</td>
+                <td>@employee.PhoneNumber</td>
+                <td>@employee.Address</td>
+                <td>@employee.CompID</td>
+                <td>
+                    <a class="btn btn-primary" asp-controller="Employees" asp-action="Edit" asp-route-id="@employee.EmpID">Edit</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
