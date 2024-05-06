@@ -1,0 +1,66 @@
+﻿@{
+    ViewData["Title"] = "Edit Employee";
+}
+
+@model CMS.Web.Models.Entities.Employee
+
+<!-- Include Font Awesome CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+<br />
+<h1>@ViewData["Title"]</h1>
+
+@if (Model is null)
+{
+    <p>No employee was found with this ID.</p>
+}
+else
+{
+    <form method="post">
+
+        <div class="mt-3">
+            <label class="form-label">Employee ID</label>
+            <input type="text" class="form-control" asp-for="EmpID" readonly />
+        </div>
+
+        <div class="mt-3">
+            <label class="form-label">Name</label>
+            <input type="text" class="form-control" asp-for="Name" />
+        </div>
+
+        <div class="mt-3">
+            <label class="form-label">Position</label>
+            <input type="text" class="form-control" asp-for="Position" />
+        </div>
+
+        <div class="mt-3">
+            <label class="form-label">Account</label>
+            <input type="email" class="form-control" asp-for="Account" />
+        </div>
+
+        <div class="mt-3">
+            <label class="form-label">Phone Number</label>
+            <input type="text" class="form-control" asp-for="PhoneNumber" />
+        </div>
+
+        <div class="mt-3">
+            <label class="form-label">Address</label>
+            <input type="text" class="form-control" asp-for="Address" />
+        </div>
+
+        <div class="mt-3">
+            <label class="form-label">Company ID</label>
+            <input type="text" class="form-control" asp-for="CompID" readonly />
+        </div>
+
+        <div class="mt-3">
+            <button type="submit" class="btn btn-primary">
+                <i class="fas fa-save"></i> Save <!-- Font Awesome save icon -->
+            </button>
+
+            <button type="submit" class="btn btn-danger ms-3" asp-action="Delete" asp-controller="Employees">
+                <i class="fas fa-trash-alt"></i> Delete <!-- Font Awesome delete icon -->
+            </button>
+        </div>
+    </form>
+}

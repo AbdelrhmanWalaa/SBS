@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "List";
+}
+<br />
+<h1>@ViewData["Title"]</h1>
+
+<p>This page allows you to view existing entries in the database for various entities.</p>
+
+<ul class="navbar-nav flex-grow-1">
+    <li class="nav-item">
+        <a class="nav-link" asp-area="" asp-controller="Companies" asp-action="List">Companies</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" asp-area="" asp-controller="Departments" asp-action="List">Departments</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" asp-area="" asp-controller="Employees" asp-action="List">Employees</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" asp-area="" asp-controller="Products" asp-action="List">Products</a>
+    </li>
+</ul>
