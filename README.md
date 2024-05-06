@@ -1,6 +1,5 @@
 # SBS
 
-![iamge](https://github.com/AbdelrhmanWalaa/SBS/assets/44446382/74ff76cb-7f50-4cb3-aa56-7379b3e1a197)
 
 SBS is an industry leading professional services solutions. Our aim is to deliver 100% quality product
 and success your business to achieve ultimate goal.
