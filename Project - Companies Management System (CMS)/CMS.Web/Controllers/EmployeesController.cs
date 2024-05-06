@@ -90,7 +90,7 @@ namespace CMS.Web.Controllers
         [HttpPost]
         public async Task<IActionResult> Delete(Employee viewModel)
         {
-            var employee = await dbContext.Employees.AsNoTracking().FirstOrDefaultAsync(x => x.EmpID == viewModel.EmpID);
+            var employee = await dbContext.Employees.AsNoTracking().FirstOrDefaultAsync(e => e.EmpID == viewModel.EmpID);
 
             if (employee is not null)
             {
@@ -100,6 +100,48 @@ namespace CMS.Web.Controllers
             }
 
             return RedirectToAction("List", "Employees");
+        }
+
+        
+        public async Task<IActionResult> Search(string searchString)
+        {
+            // Get all employees from the database
+            var employees = await dbContext.Employees.ToListAsync();
+
+            // Check the string
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                // Filter employees where the name starts with the search string (case-insensitive)
+                employees = employees.Where(e => e.Name.IndexOf(searchString, StringComparison.OrdinalIgnoreCase) == 0).ToList();
+            }
+
+            // Pass the found employees to the view
+            return View("List", employees);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Sort(string sortOrder)
+        {
+            // Get all employees from the database
+            var employees = await dbContext.Employees.ToListAsync();
+
+            // Set the ViewData to "name_desc" if sortOrder is null or empty, otherwise sets it to an empty string.
+            ViewData["NameSortParam"] = string.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
+
+            // Check the sort order
+            if (sortOrder == "name_desc")
+            {
+                // Sort employees by name in descending order
+                employees = employees.OrderByDescending(e => e.Name).ToList();
+            }
+            else
+            {
+                // Sort employees by name in ascending order by default
+                employees = employees.OrderBy(e => e.Name).ToList();
+            }
+
+            // Pass the sorted employees to the view
+            return View("List", employees);
         }
     }
 }

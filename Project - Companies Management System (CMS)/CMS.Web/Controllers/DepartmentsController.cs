@@ -82,7 +82,7 @@ namespace CMS.Web.Controllers
         [HttpPost]
         public async Task<IActionResult> Delete(Department viewModel)
         {
-            var department = await dbContext.Departments.AsNoTracking().FirstOrDefaultAsync(x => x.DepID == viewModel.DepID);
+            var department = await dbContext.Departments.AsNoTracking().FirstOrDefaultAsync(d => d.DepID == viewModel.DepID);
 
             if (department is not null)
             {
@@ -92,6 +92,48 @@ namespace CMS.Web.Controllers
             }
 
             return RedirectToAction("List", "Departments");
+        }
+
+        
+        public async Task<IActionResult> Search(string searchString)
+        {
+            // Get all departments from the database
+            var departments = await dbContext.Departments.ToListAsync();
+
+            // Check the string
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                // Filter departments where the name starts with the search string (case-insensitive)
+                departments = departments.Where(d => d.Name.IndexOf(searchString, StringComparison.OrdinalIgnoreCase) == 0).ToList();
+            }
+
+            // Pass the found departments to the view
+            return View("List", departments);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Sort(string sortOrder)
+        {
+            // Get all departments from the database
+            var departments = await dbContext.Departments.ToListAsync();
+
+            // Set the ViewData to "name_desc" if sortOrder is null or empty, otherwise sets it to an empty string.
+            ViewData["NameSortParam"] = string.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
+
+            // Check the sort order
+            if (sortOrder == "name_desc")
+            {
+                // Sort departments by name in descending order
+                departments = departments.OrderByDescending(d => d.Name).ToList();
+            }
+            else
+            {
+                // Sort departments by name in ascending order by default
+                departments = departments.OrderBy(d => d.Name).ToList();
+            }
+
+            // Pass the sorted departments to the view
+            return View("List", departments);
         }
     }
 }

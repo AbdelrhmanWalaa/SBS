@@ -86,7 +86,7 @@ namespace CMS.Web.Controllers
         [HttpPost]
         public async Task<IActionResult> Delete(Product viewModel)
         {
-            var product = await dbContext.Products.AsNoTracking().FirstOrDefaultAsync(x => x.ProdID == viewModel.ProdID);
+            var product = await dbContext.Products.AsNoTracking().FirstOrDefaultAsync(p => p.ProdID == viewModel.ProdID);
 
             if (product is not null)
             {
@@ -96,6 +96,48 @@ namespace CMS.Web.Controllers
             }
 
             return RedirectToAction("List", "Products");
+        }
+
+        
+        public async Task<IActionResult> Search(string searchString)
+        {
+            // Get all products from the database
+            var products = await dbContext.Products.ToListAsync();
+
+            // Check the string
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                // Filter products where the name starts with the search string (case-insensitive)
+                products = products.Where(p => p.Name.IndexOf(searchString, StringComparison.OrdinalIgnoreCase) == 0).ToList();
+            }
+
+            // Pass the found products to the view
+            return View("List", products);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Sort(string sortOrder)
+        {
+            // Get all products from the database
+            var products = await dbContext.Products.ToListAsync();
+
+            // Set the ViewData to "name_desc" if sortOrder is null or empty, otherwise sets it to an empty string.
+            ViewData["NameSortParam"] = string.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
+
+            // Check the sort order
+            if (sortOrder == "name_desc")
+            {
+                // Sort products by name in descending order
+                products = products.OrderByDescending(p => p.Name).ToList();
+            }
+            else
+            {
+                // Sort products by name in ascending order by default
+                products = products.OrderBy(p => p.Name).ToList();
+            }
+
+            // Pass the sorted products to the view
+            return View("List", products);
         }
     }
 }

@@ -4,14 +4,46 @@
 
 @model List<CMS.Web.Models.Entities.Product>
 
+<!-- Include Font Awesome CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
 <br />
-<h1>@ViewData["Title"]</h1>
+<div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+    <div class="title">
+        <a class="text-dark" style="text-decoration: none;" asp-controller="Products" asp-action="List">
+            <h1>@ViewData["Title"]</h1>
+        </a>
+    </div>
+
+    <div class="search-container">
+        <form style="display: flex;" asp-controller="Products" asp-action="Search">
+            <input type="text" class="form-control" name="searchString" placeholder="Search...">
+            <button type="submit" class="btn btn-primary">
+                <i class="fas fa-search"></i> <!-- Font Awesome magnifying glass icon -->
+            </button>
+        </form>
+    </div>
+</div>
 
 <table class="table">
     <thead>
         <tr>
+            <th>#</th>
             <th>Product ID</th>
-            <th>Name</th>
+            <th>
+                <a class="text-dark" style="text-decoration: none;" asp-controller="Products" asp-action="Sort" asp-route-sortOrder=@ViewData["NameSortParam"]>Name 
+                    @{
+                        if (ViewData["NameSortParam"] == "name_desc")
+                        {
+                            <span class="arrow-up"></span>
+                        }
+                        else
+                        {
+                            <span class="arrow-down"></span>
+                        }
+                    }
+                </a>
+            </th>
             <th>Description</th>
             <th>Price</th>
             <th>Company ID</th>
@@ -19,18 +51,48 @@
         </tr>
     </thead>
     <tbody>
+        @{
+            int counter = 1; // Initialize counter variable
+        }
         @foreach (var product in Model)
         {
             <tr>
+                <td>@counter</td> <!-- Display row number -->
                 <td>@product.ProdID</td>
                 <td>@product.Name</td>
                 <td>@product.Description</td>
                 <td>@product.Price</td>
                 <td>@product.CompID</td>
                 <td>
-                    <a class="btn btn-primary" asp-controller="Products" asp-action="Edit" asp-route-id="@product.ProdID">Edit</a>
+                    <a class="btn btn-primary" asp-controller="Products" asp-action="Edit" asp-route-id="@product.ProdID">
+                        <i class="fas fa-edit"></i> Edit <!-- Font Awesome edit icon -->
+                    </a>
                 </td>
             </tr>
+
+            counter++; // Increment counter
         }
     </tbody>
 </table>
+
+<style>
+    .arrow-up {
+        display: inline-block;
+        width: 0;
+        height: 0;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-bottom: 5px solid black; /* Adjust color and size as needed */
+        margin-left: 5px; /* Adjust spacing as needed */
+    }
+
+    .arrow-down {
+        display: inline-block;
+        width: 0;
+        height: 0;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-top: 5px solid black;
+        margin-left: 5px;
+    }
+</style>
