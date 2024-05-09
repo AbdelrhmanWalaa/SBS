@@ -3,3 +3,4 @@ Guide/Applications/ASP.NET MVC Application Using Entity Framework Code First.zip
 Guide/Videos/ASPNET Core MVC CRUD Operations using NET 8 and Entity Framework Core.mp4
 Guide/Videos/ASPNET Web API CRUD Operations  NET8 and Entity Framework Core.mp4
 Guide/Videos/C\# Tutorial for Beginners.mp4
+*.vsidx
