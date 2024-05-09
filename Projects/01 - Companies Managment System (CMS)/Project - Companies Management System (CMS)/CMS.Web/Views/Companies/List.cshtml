@@ -8,6 +8,7 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 
 <br />
+<!-- Title and Search Box -->
 <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
     <div class="title">
         <a class="text-dark" style="text-decoration: none;" asp-controller="Companies" asp-action="List">
@@ -25,6 +26,8 @@
     </div>
 </div>
 
+<br />
+<!-- Table -->
 <table class="table">
     <thead>
         <tr>
@@ -33,7 +36,7 @@
             <th>
                 <a class="text-dark" style="text-decoration: none;" asp-controller="Companies" asp-action="Sort" asp-route-sortOrder=@ViewData["NameSortParam"]>Name 
                     @{
-                        if (ViewData["NameSortParam"] == "name_desc")
+                        if (ViewBag.NameSortParam == "name_desc")
                         {
                             <span class="arrow-up"></span>
                         }
@@ -48,10 +51,12 @@
             <th> </th>
         </tr>
     </thead>
+    <br />
     <tbody>
         @{
             int counter = 1; // Initialize counter variable
         }
+
         @foreach (var company in Model)
         {
             <tr>
@@ -70,6 +75,59 @@
         }
     </tbody>
 </table>
+
+<br />
+<!-- Pagination -->
+<div class="pagination-container">
+
+    <nav class="d-flex justify-content-center">
+        <ul class="pagination">
+            <!-- First Page Link -->
+            <li class="page-item">
+                <a class="page-link text-black" href="@Url.Action("List", new { pageNumber = 1 })">
+                    <i class="fas fa-angle-double-left"></i> <!-- Double arrow backward icon -->
+                </a>
+            </li>
+        </ul>
+
+        <ul class="pagination">
+            <!-- Previous Page Link -->
+            <li class="page-item">
+                <a class="page-link text-black" href="@Url.Action("List", new { pageNumber = Math.Max(1, (ViewBag.PageNumber != null ? (int) ViewBag.PageNumber - 1 : 1)) })">
+                    <i class="fas fa-angle-left"></i> <!-- One arrow backward icon -->
+                </a>
+            </li>
+        </ul>
+
+        @for (int i = 1; i <= ViewBag.TotalPages; i++)
+        {
+            <ul class="pagination">
+                <li class="page-item @(i == ViewBag.PageNumber ? "active" : "")">
+                    <a class="page-link text-black" href="@Url.Action("List", new { pageNumber = i })">@i</a>
+                </li>
+            </ul>
+        }
+
+        <ul class="pagination">
+            <!-- Next Page Link -->
+            <li class="page-item">
+                <a class="page-link text-black" href="@Url.Action("List", new { pageNumber = Math.Min(ViewBag.TotalPages ?? 1, (ViewBag.PageNumber != null ? (int) ViewBag.PageNumber + 1 : 1)) })">
+                    <i class="fas fa-angle-right"></i> <!-- One arrow forward icon -->
+                </a>
+            </li>
+        </ul>
+
+        <ul class="pagination">
+            <!-- Last Page Link -->
+            <li class="page-item">
+                <a class="page-link text-black" href="@Url.Action("List", new { pageNumber = ViewBag.TotalPages })">
+                    <i class="fas fa-angle-double-right"></i> <!-- Double arrow forward icon -->
+                </a>
+            </li>
+        </ul>
+    </nav>
+</div>
+
 
 <style>
     .arrow-up {

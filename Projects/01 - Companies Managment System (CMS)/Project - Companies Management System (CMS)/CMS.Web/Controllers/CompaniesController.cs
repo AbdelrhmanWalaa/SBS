@@ -17,6 +17,35 @@ namespace CMS.Web.Controllers
         }
 
         [HttpGet]
+        public async Task<IActionResult> List(int pageNumber)
+        {
+            // Define the page size
+            int pageSize = 10;
+
+            // Get all companies from the database
+            var companies = await dbContext.Companies.ToListAsync();
+
+            // Calculate total number of items
+            int totalItems = companies.Count;
+
+            // Calculate total number of pages
+            int totalPages = (int)Math.Ceiling((double)totalItems / pageSize);
+
+            // Ensure pageNumber is within valid range
+            pageNumber = Math.Max(1, Math.Min(totalPages, pageNumber));
+
+            // Retrieve items for the current page
+            var items = companies.Skip((pageNumber - 1) * pageSize).Take(pageSize).ToList();
+
+            // Pass the retrieved items, page number, and total pages to the view
+            ViewData["PageNumber"] = pageNumber;
+            ViewData["TotalPages"] = totalPages;
+
+            // Pass the view model to the view
+            return View(items);
+        }
+
+        [HttpGet]
         public IActionResult Add()
         {
             return View();
@@ -36,14 +65,6 @@ namespace CMS.Web.Controllers
             await dbContext.SaveChangesAsync();
 
             return RedirectToAction("List", "Companies");
-        }
-
-        [HttpGet]
-        public async Task<IActionResult> List()
-        {
-            var companies = await dbContext.Companies.ToListAsync();
-
-            return View(companies);
         }
 
         [HttpGet]

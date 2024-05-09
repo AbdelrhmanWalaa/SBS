@@ -164,3 +164,4 @@ E:\SBS\Projects\01 - Companies Managment System (CMS)\Project - Companies Manage
 E:\SBS\Projects\01 - Companies Managment System (CMS)\Project - Companies Management System (CMS)\CMS.Web\obj\Debug\net8.0\CMS.Web.pdb
 E:\SBS\Projects\01 - Companies Managment System (CMS)\Project - Companies Management System (CMS)\CMS.Web\obj\Debug\net8.0\CMS.Web.genruntimeconfig.cache
 E:\SBS\Projects\01 - Companies Managment System (CMS)\Project - Companies Management System (CMS)\CMS.Web\obj\Debug\net8.0\ref\CMS.Web.dll
+E:\SBS\Projects\01 - Companies Managment System (CMS)\Project - Companies Management System (CMS)\CMS.Web\obj\Debug\net8.0\CMS.Web.sourcelink.json
