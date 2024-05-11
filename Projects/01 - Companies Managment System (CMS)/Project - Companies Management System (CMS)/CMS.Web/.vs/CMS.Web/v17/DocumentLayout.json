@@ -1,0 +1,469 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\SBS\\Projects\\01 - Companies Managment System (CMS)\\Project - Companies Management System (CMS)\\CMS.Web\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2600187D-E80D-486F-A929-3E78142CEA78}|CMS.Web.csproj|e:\\sbs\\projects\\01 - companies managment system (cms)\\project - companies management system (cms)\\cms.web\\views\\companies\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2600187D-E80D-486F-A929-3E78142CEA78}|CMS.Web.csproj|solutionrelative:views\\companies\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2600187D-E80D-486F-A929-3E78142CEA78}|CMS.Web.csproj|e:\\sbs\\projects\\01 - companies managment system (cms)\\project - companies management system (cms)\\cms.web\\controllers\\companiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2600187D-E80D-486F-A929-3E78142CEA78}|CMS.Web.csproj|solutionrelative:controllers\\companiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2600187D-E80D-486F-A929-3E78142CEA78}|CMS.Web.csproj|e:\\sbs\\projects\\01 - companies managment system (cms)\\project - companies management system (cms)\\cms.web\\views\\departments\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2600187D-E80D-486F-A929-3E78142CEA78}|CMS.Web.csproj|solutionrelative:views\\departments\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2600187D-E80D-486F-A929-3E78142CEA78}|CMS.Web.csproj|e:\\sbs\\projects\\01 - companies managment system (cms)\\project - companies management system (cms)\\cms.web\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2600187D-E80D-486F-A929-3E78142CEA78}|CMS.Web.csproj|solutionrelative:controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2600187D-E80D-486F-A929-3E78142CEA78}|CMS.Web.csproj|e:\\sbs\\projects\\01 - companies managment system (cms)\\project - companies management system (cms)\\cms.web\\views\\home\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2600187D-E80D-486F-A929-3E78142CEA78}|CMS.Web.csproj|solutionrelative:views\\home\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2600187D-E80D-486F-A929-3E78142CEA78}|CMS.Web.csproj|e:\\sbs\\projects\\01 - companies managment system (cms)\\project - companies management system (cms)\\cms.web\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2600187D-E80D-486F-A929-3E78142CEA78}|CMS.Web.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2600187D-E80D-486F-A929-3E78142CEA78}|CMS.Web.csproj|e:\\sbs\\projects\\01 - companies managment system (cms)\\project - companies management system (cms)\\cms.web\\views\\home\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2600187D-E80D-486F-A929-3E78142CEA78}|CMS.Web.csproj|solutionrelative:views\\home\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2600187D-E80D-486F-A929-3E78142CEA78}|CMS.Web.csproj|e:\\sbs\\projects\\01 - companies managment system (cms)\\project - companies management system (cms)\\cms.web\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2600187D-E80D-486F-A929-3E78142CEA78}|CMS.Web.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2600187D-E80D-486F-A929-3E78142CEA78}|CMS.Web.csproj|e:\\sbs\\projects\\01 - companies managment system (cms)\\project - companies management system (cms)\\cms.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2600187D-E80D-486F-A929-3E78142CEA78}|CMS.Web.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2600187D-E80D-486F-A929-3E78142CEA78}|CMS.Web.csproj|e:\\sbs\\projects\\01 - companies managment system (cms)\\project - companies management system (cms)\\cms.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2600187D-E80D-486F-A929-3E78142CEA78}|CMS.Web.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2600187D-E80D-486F-A929-3E78142CEA78}|CMS.Web.csproj|e:\\sbs\\projects\\01 - companies managment system (cms)\\project - companies management system (cms)\\cms.web\\models\\entities\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2600187D-E80D-486F-A929-3E78142CEA78}|CMS.Web.csproj|solutionrelative:models\\entities\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2600187D-E80D-486F-A929-3E78142CEA78}|CMS.Web.csproj|e:\\sbs\\projects\\01 - companies managment system (cms)\\project - companies management system (cms)\\cms.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2600187D-E80D-486F-A929-3E78142CEA78}|CMS.Web.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2600187D-E80D-486F-A929-3E78142CEA78}|CMS.Web.csproj|e:\\sbs\\projects\\01 - companies managment system (cms)\\project - companies management system (cms)\\cms.web\\views\\employees\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2600187D-E80D-486F-A929-3E78142CEA78}|CMS.Web.csproj|solutionrelative:views\\employees\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2600187D-E80D-486F-A929-3E78142CEA78}|CMS.Web.csproj|e:\\sbs\\projects\\01 - companies managment system (cms)\\project - companies management system (cms)\\cms.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2600187D-E80D-486F-A929-3E78142CEA78}|CMS.Web.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2600187D-E80D-486F-A929-3E78142CEA78}|CMS.Web.csproj|e:\\sbs\\projects\\01 - companies managment system (cms)\\project - companies management system (cms)\\cms.web\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2600187D-E80D-486F-A929-3E78142CEA78}|CMS.Web.csproj|solutionrelative:controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2600187D-E80D-486F-A929-3E78142CEA78}|CMS.Web.csproj|e:\\sbs\\projects\\01 - companies managment system (cms)\\project - companies management system (cms)\\cms.web\\views\\employees\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2600187D-E80D-486F-A929-3E78142CEA78}|CMS.Web.csproj|solutionrelative:views\\employees\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2600187D-E80D-486F-A929-3E78142CEA78}|CMS.Web.csproj|e:\\sbs\\projects\\01 - companies managment system (cms)\\project - companies management system (cms)\\cms.web\\views\\products\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2600187D-E80D-486F-A929-3E78142CEA78}|CMS.Web.csproj|solutionrelative:views\\products\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2600187D-E80D-486F-A929-3E78142CEA78}|CMS.Web.csproj|e:\\sbs\\projects\\01 - companies managment system (cms)\\project - companies management system (cms)\\cms.web\\views\\companies\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2600187D-E80D-486F-A929-3E78142CEA78}|CMS.Web.csproj|solutionrelative:views\\companies\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2600187D-E80D-486F-A929-3E78142CEA78}|CMS.Web.csproj|e:\\sbs\\projects\\01 - companies managment system (cms)\\project - companies management system (cms)\\cms.web\\views\\departments\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2600187D-E80D-486F-A929-3E78142CEA78}|CMS.Web.csproj|solutionrelative:views\\departments\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2600187D-E80D-486F-A929-3E78142CEA78}|CMS.Web.csproj|e:\\sbs\\projects\\01 - companies managment system (cms)\\project - companies management system (cms)\\cms.web\\views\\employees\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2600187D-E80D-486F-A929-3E78142CEA78}|CMS.Web.csproj|solutionrelative:views\\employees\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2600187D-E80D-486F-A929-3E78142CEA78}|CMS.Web.csproj|e:\\sbs\\projects\\01 - companies managment system (cms)\\project - companies management system (cms)\\cms.web\\models\\entities\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2600187D-E80D-486F-A929-3E78142CEA78}|CMS.Web.csproj|solutionrelative:models\\entities\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2600187D-E80D-486F-A929-3E78142CEA78}|CMS.Web.csproj|e:\\sbs\\projects\\01 - companies managment system (cms)\\project - companies management system (cms)\\cms.web\\views\\products\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2600187D-E80D-486F-A929-3E78142CEA78}|CMS.Web.csproj|solutionrelative:views\\products\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2600187D-E80D-486F-A929-3E78142CEA78}|CMS.Web.csproj|e:\\sbs\\projects\\01 - companies managment system (cms)\\project - companies management system (cms)\\cms.web\\views\\companies\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2600187D-E80D-486F-A929-3E78142CEA78}|CMS.Web.csproj|solutionrelative:views\\companies\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2600187D-E80D-486F-A929-3E78142CEA78}|CMS.Web.csproj|e:\\sbs\\projects\\01 - companies managment system (cms)\\project - companies management system (cms)\\cms.web\\views\\departments\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2600187D-E80D-486F-A929-3E78142CEA78}|CMS.Web.csproj|solutionrelative:views\\departments\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2600187D-E80D-486F-A929-3E78142CEA78}|CMS.Web.csproj|e:\\sbs\\projects\\01 - companies managment system (cms)\\project - companies management system (cms)\\cms.web\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2600187D-E80D-486F-A929-3E78142CEA78}|CMS.Web.csproj|solutionrelative:views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2600187D-E80D-486F-A929-3E78142CEA78}|CMS.Web.csproj|e:\\sbs\\projects\\01 - companies managment system (cms)\\project - companies management system (cms)\\cms.web\\models\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2600187D-E80D-486F-A929-3E78142CEA78}|CMS.Web.csproj|solutionrelative:models\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2600187D-E80D-486F-A929-3E78142CEA78}|CMS.Web.csproj|e:\\sbs\\projects\\01 - companies managment system (cms)\\project - companies management system (cms)\\cms.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2600187D-E80D-486F-A929-3E78142CEA78}|CMS.Web.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2600187D-E80D-486F-A929-3E78142CEA78}|CMS.Web.csproj|e:\\sbs\\projects\\01 - companies managment system (cms)\\project - companies management system (cms)\\cms.web\\models\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2600187D-E80D-486F-A929-3E78142CEA78}|CMS.Web.csproj|solutionrelative:models\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 20,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\SBS\\Projects\\01 - Companies Managment System (CMS)\\Project - Companies Management System (CMS)\\CMS.Web\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\SBS\\Projects\\01 - Companies Managment System (CMS)\\Project - Companies Management System (CMS)\\CMS.Web\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T19:44:47.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\SBS\\Projects\\01 - Companies Managment System (CMS)\\Project - Companies Management System (CMS)\\CMS.Web\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\SBS\\Projects\\01 - Companies Managment System (CMS)\\Project - Companies Management System (CMS)\\CMS.Web\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-02T01:15:28.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "E:\\SBS\\Projects\\01 - Companies Managment System (CMS)\\Project - Companies Management System (CMS)\\CMS.Web\\Views\\Home\\Add.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Add.cshtml",
+              "ToolTip": "E:\\SBS\\Projects\\01 - Companies Managment System (CMS)\\Project - Companies Management System (CMS)\\CMS.Web\\Views\\Home\\Add.cshtml",
+              "RelativeToolTip": "Views\\Home\\Add.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-02T01:14:52.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "E:\\SBS\\Projects\\01 - Companies Managment System (CMS)\\Project - Companies Management System (CMS)\\CMS.Web\\Views\\Home\\List.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\List.cshtml",
+              "ToolTip": "E:\\SBS\\Projects\\01 - Companies Managment System (CMS)\\Project - Companies Management System (CMS)\\CMS.Web\\Views\\Home\\List.cshtml",
+              "RelativeToolTip": "Views\\Home\\List.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-02T01:32:53.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "E:\\SBS\\Projects\\01 - Companies Managment System (CMS)\\Project - Companies Management System (CMS)\\CMS.Web\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "E:\\SBS\\Projects\\01 - Companies Managment System (CMS)\\Project - Companies Management System (CMS)\\CMS.Web\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-02T01:17:51.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\SBS\\Projects\\01 - Companies Managment System (CMS)\\Project - Companies Management System (CMS)\\CMS.Web\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "E:\\SBS\\Projects\\01 - Companies Managment System (CMS)\\Project - Companies Management System (CMS)\\CMS.Web\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T01:30:10.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CompaniesController.cs",
+              "DocumentMoniker": "E:\\SBS\\Projects\\01 - Companies Managment System (CMS)\\Project - Companies Management System (CMS)\\CMS.Web\\Controllers\\CompaniesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CompaniesController.cs",
+              "ToolTip": "E:\\SBS\\Projects\\01 - Companies Managment System (CMS)\\Project - Companies Management System (CMS)\\CMS.Web\\Controllers\\CompaniesController.cs",
+              "RelativeToolTip": "Controllers\\CompaniesController.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAAADAAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T16:22:39.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DepartmentsController.cs",
+              "DocumentMoniker": "E:\\SBS\\Projects\\01 - Companies Managment System (CMS)\\Project - Companies Management System (CMS)\\CMS.Web\\Controllers\\DepartmentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DepartmentsController.cs",
+              "ToolTip": "E:\\SBS\\Projects\\01 - Companies Managment System (CMS)\\Project - Companies Management System (CMS)\\CMS.Web\\Controllers\\DepartmentsController.cs",
+              "RelativeToolTip": "Controllers\\DepartmentsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T19:07:28.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "E:\\SBS\\Projects\\01 - Companies Managment System (CMS)\\Project - Companies Management System (CMS)\\CMS.Web\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeesController.cs",
+              "ToolTip": "E:\\SBS\\Projects\\01 - Companies Managment System (CMS)\\Project - Companies Management System (CMS)\\CMS.Web\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "Controllers\\EmployeesController.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAgwGgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T19:04:54.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "E:\\SBS\\Projects\\01 - Companies Managment System (CMS)\\Project - Companies Management System (CMS)\\CMS.Web\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
+              "ToolTip": "E:\\SBS\\Projects\\01 - Companies Managment System (CMS)\\Project - Companies Management System (CMS)\\CMS.Web\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T16:26:00.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Company.cs",
+              "DocumentMoniker": "E:\\SBS\\Projects\\01 - Companies Managment System (CMS)\\Project - Companies Management System (CMS)\\CMS.Web\\Models\\Entities\\Company.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Company.cs",
+              "ToolTip": "E:\\SBS\\Projects\\01 - Companies Managment System (CMS)\\Project - Companies Management System (CMS)\\CMS.Web\\Models\\Entities\\Company.cs",
+              "RelativeToolTip": "Models\\Entities\\Company.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T19:41:54.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Department.cs",
+              "DocumentMoniker": "E:\\SBS\\Projects\\01 - Companies Managment System (CMS)\\Project - Companies Management System (CMS)\\CMS.Web\\Models\\Entities\\Department.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Department.cs",
+              "ToolTip": "E:\\SBS\\Projects\\01 - Companies Managment System (CMS)\\Project - Companies Management System (CMS)\\CMS.Web\\Models\\Entities\\Department.cs",
+              "RelativeToolTip": "Models\\Entities\\Department.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T19:41:55.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "E:\\SBS\\Projects\\01 - Companies Managment System (CMS)\\Project - Companies Management System (CMS)\\CMS.Web\\Models\\Entities\\Employee.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Employee.cs",
+              "ToolTip": "E:\\SBS\\Projects\\01 - Companies Managment System (CMS)\\Project - Companies Management System (CMS)\\CMS.Web\\Models\\Entities\\Employee.cs",
+              "RelativeToolTip": "Models\\Entities\\Employee.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T19:17:03.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Product.cs",
+              "DocumentMoniker": "E:\\SBS\\Projects\\01 - Companies Managment System (CMS)\\Project - Companies Management System (CMS)\\CMS.Web\\Models\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Product.cs",
+              "ToolTip": "E:\\SBS\\Projects\\01 - Companies Managment System (CMS)\\Project - Companies Management System (CMS)\\CMS.Web\\Models\\Entities\\Product.cs",
+              "RelativeToolTip": "Models\\Entities\\Product.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T19:10:11.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\SBS\\Projects\\01 - Companies Managment System (CMS)\\Project - Companies Management System (CMS)\\CMS.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\SBS\\Projects\\01 - Companies Managment System (CMS)\\Project - Companies Management System (CMS)\\CMS.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-01T19:45:12.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\SBS\\Projects\\01 - Companies Managment System (CMS)\\Project - Companies Management System (CMS)\\CMS.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "E:\\SBS\\Projects\\01 - Companies Managment System (CMS)\\Project - Companies Management System (CMS)\\CMS.Web\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-01T19:45:01.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "E:\\SBS\\Projects\\01 - Companies Managment System (CMS)\\Project - Companies Management System (CMS)\\CMS.Web\\Views\\Companies\\Add.cshtml",
+              "RelativeDocumentMoniker": "Views\\Companies\\Add.cshtml",
+              "ToolTip": "E:\\SBS\\Projects\\01 - Companies Managment System (CMS)\\Project - Companies Management System (CMS)\\CMS.Web\\Views\\Companies\\Add.cshtml",
+              "RelativeToolTip": "Views\\Companies\\Add.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-01T19:12:20.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "E:\\SBS\\Projects\\01 - Companies Managment System (CMS)\\Project - Companies Management System (CMS)\\CMS.Web\\Views\\Departments\\Add.cshtml",
+              "RelativeDocumentMoniker": "Views\\Departments\\Add.cshtml",
+              "ToolTip": "E:\\SBS\\Projects\\01 - Companies Managment System (CMS)\\Project - Companies Management System (CMS)\\CMS.Web\\Views\\Departments\\Add.cshtml",
+              "RelativeToolTip": "Views\\Departments\\Add.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABsAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-01T19:35:27.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "E:\\SBS\\Projects\\01 - Companies Managment System (CMS)\\Project - Companies Management System (CMS)\\CMS.Web\\Views\\Employees\\Add.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employees\\Add.cshtml",
+              "ToolTip": "E:\\SBS\\Projects\\01 - Companies Managment System (CMS)\\Project - Companies Management System (CMS)\\CMS.Web\\Views\\Employees\\Add.cshtml",
+              "RelativeToolTip": "Views\\Employees\\Add.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-01T19:32:07.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "E:\\SBS\\Projects\\01 - Companies Managment System (CMS)\\Project - Companies Management System (CMS)\\CMS.Web\\Views\\Products\\Add.cshtml",
+              "RelativeDocumentMoniker": "Views\\Products\\Add.cshtml",
+              "ToolTip": "E:\\SBS\\Projects\\01 - Companies Managment System (CMS)\\Project - Companies Management System (CMS)\\CMS.Web\\Views\\Products\\Add.cshtml",
+              "RelativeToolTip": "Views\\Products\\Add.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-01T19:37:22.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "E:\\SBS\\Projects\\01 - Companies Managment System (CMS)\\Project - Companies Management System (CMS)\\CMS.Web\\Views\\Companies\\List.cshtml",
+              "RelativeDocumentMoniker": "Views\\Companies\\List.cshtml",
+              "ToolTip": "E:\\SBS\\Projects\\01 - Companies Managment System (CMS)\\Project - Companies Management System (CMS)\\CMS.Web\\Views\\Companies\\List.cshtml",
+              "RelativeToolTip": "Views\\Companies\\List.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-02T00:29:43.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "E:\\SBS\\Projects\\01 - Companies Managment System (CMS)\\Project - Companies Management System (CMS)\\CMS.Web\\Views\\Departments\\List.cshtml",
+              "RelativeDocumentMoniker": "Views\\Departments\\List.cshtml",
+              "ToolTip": "E:\\SBS\\Projects\\01 - Companies Managment System (CMS)\\Project - Companies Management System (CMS)\\CMS.Web\\Views\\Departments\\List.cshtml",
+              "RelativeToolTip": "Views\\Departments\\List.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACEAAACnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-02T00:15:47.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "E:\\SBS\\Projects\\01 - Companies Managment System (CMS)\\Project - Companies Management System (CMS)\\CMS.Web\\Views\\Employees\\List.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employees\\List.cshtml",
+              "ToolTip": "E:\\SBS\\Projects\\01 - Companies Managment System (CMS)\\Project - Companies Management System (CMS)\\CMS.Web\\Views\\Employees\\List.cshtml",
+              "RelativeToolTip": "Views\\Employees\\List.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-02T00:34:01.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "E:\\SBS\\Projects\\01 - Companies Managment System (CMS)\\Project - Companies Management System (CMS)\\CMS.Web\\Views\\Products\\List.cshtml",
+              "RelativeDocumentMoniker": "Views\\Products\\List.cshtml",
+              "ToolTip": "E:\\SBS\\Projects\\01 - Companies Managment System (CMS)\\Project - Companies Management System (CMS)\\CMS.Web\\Views\\Products\\List.cshtml",
+              "RelativeToolTip": "Views\\Products\\List.cshtml",
+              "ViewState": "AQIAABwAAAAAAAAAAAAgwCEAAACkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-02T00:37:52.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\SBS\\Projects\\01 - Companies Managment System (CMS)\\Project - Companies Management System (CMS)\\CMS.Web\\Views\\Companies\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Companies\\Edit.cshtml",
+              "ToolTip": "E:\\SBS\\Projects\\01 - Companies Managment System (CMS)\\Project - Companies Management System (CMS)\\CMS.Web\\Views\\Companies\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Companies\\Edit.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-02T02:49:43.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\SBS\\Projects\\01 - Companies Managment System (CMS)\\Project - Companies Management System (CMS)\\CMS.Web\\Views\\Departments\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Departments\\Edit.cshtml",
+              "ToolTip": "E:\\SBS\\Projects\\01 - Companies Managment System (CMS)\\Project - Companies Management System (CMS)\\CMS.Web\\Views\\Departments\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Departments\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABpAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-02T03:58:59.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\SBS\\Projects\\01 - Companies Managment System (CMS)\\Project - Companies Management System (CMS)\\CMS.Web\\Views\\Employees\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employees\\Edit.cshtml",
+              "ToolTip": "E:\\SBS\\Projects\\01 - Companies Managment System (CMS)\\Project - Companies Management System (CMS)\\CMS.Web\\Views\\Employees\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Employees\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-02T04:02:14.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\SBS\\Projects\\01 - Companies Managment System (CMS)\\Project - Companies Management System (CMS)\\CMS.Web\\Views\\Products\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Products\\Edit.cshtml",
+              "ToolTip": "E:\\SBS\\Projects\\01 - Companies Managment System (CMS)\\Project - Companies Management System (CMS)\\CMS.Web\\Views\\Products\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Products\\Edit.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAACwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-02T04:06:42.097Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
